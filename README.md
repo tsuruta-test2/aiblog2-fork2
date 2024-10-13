@@ -72,12 +72,8 @@ END_POINT_URL=https://your-wordpress-site.com/wp-json/wp/v2/posts
 
 ## インストールと実行方法
 #### リポジトリをクローン
-git clone https://github.com/your_username/your_repository_name.git  
-cd your_repository_name
-
-#### 必要なパッケージをインストール
-以下のコマンドで必要なPythonパッケージをインストールします。   
-pip install -r requirements.txt
+git clone https://github.com/tsuru-mitsu/aiblog2.git  
+cd aiblog2
 
 #### 環境変数の設定
 プロジェクトルートに.envファイルを作成し、上記の必要な環境変数を設定してください。
